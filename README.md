@@ -25,9 +25,9 @@ vue-resource是Vue.js的一款插件，它可以通过XMLHttpRequest或JSONP发�
  拦截器在一些场景下会非常有用，比如请求发送前在headers中设置access_token，或者在请求失败时，提供共通的处理方式。
 
 
- #支持的HTTP方法
+#支持的HTTP方法
  vue-resource的请求API是按照REST风格设计的，它提供了7种请求API：
-
+ 
  get(url, [options])
  head(url, [options])
  delete(url, [options])
@@ -58,7 +58,7 @@ vue-resource是Vue.js的一款插件，它可以通过XMLHttpRequest或JSONP发�
  emulateHTTP	boolean	发送PUT, PATCH, DELETE请求时以HTTP POST的方式发送，并设置请求头的X-HTTP-Method-Override
  emulateJSON	boolean	将request body以application/x-www-form-urlencoded content type发送
 
- #response对象
+#response对象
   response对象包含以下属性：
 
   方法	类型	描述
@@ -73,7 +73,7 @@ vue-resource是Vue.js的一款插件，它可以通过XMLHttpRequest或JSONP发�
   注意：本文的vue-resource版本为v0.9.3，如果你使用的是v0.9.0以前的版本，response对象是没有json(), blob(), text()这些方法的。
 
 
-  #使用resource服务
+ #使用resource服务
 
    vue-resource提供了另外一种方式访问HTTP——resource服务，resource服务包含以下几种默认的action：
 
@@ -87,6 +87,8 @@ vue-resource是Vue.js的一款插件，它可以通过XMLHttpRequest或JSONP发�
 
    全局访问：Vue.resource
    实例访问：this.$resource
+
+
 
 
    博文链接：http://www.cnblogs.com/keepfool/p/5657065.html
