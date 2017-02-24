@@ -73,7 +73,7 @@ vue-resource是Vue.js的一款插件，它可以通过XMLHttpRequest或JSONP发�
   注意：本文的vue-resource版本为v0.9.3，如果你使用的是v0.9.0以前的版本，response对象是没有json(), blob(), text()这些方法的。
 
 
- #使用resource服务
+#使用resource服务
 
    vue-resource提供了另外一种方式访问HTTP——resource服务，resource服务包含以下几种默认的action：
 
